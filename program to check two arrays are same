@@ -1,0 +1,5 @@
+from numpy import *
+n=int(input("Enter how many values you want to read : "))
+a=array([int(input(f"Enter the value of a[{i}] : "))for i in range(n)])
+b=array([int(input(f"Enter the value of b[{i}] : "))for i in range(n)])
+t=0
